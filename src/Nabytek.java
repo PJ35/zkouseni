@@ -1,17 +1,17 @@
 import java.math.BigDecimal;
 
 public class Nabytek {
-    private BigDecimal hmnotnost;
+    private Double hmnotnost;
 
-    public Nabytek(BigDecimal hmnotnost) {
+    public Nabytek(Double hmnotnost) {
         this.hmnotnost = hmnotnost;
     }
 
-    public BigDecimal getHmnotnost() {
+    public Double getHmnotnost() {
         return hmnotnost;
     }
 
-    public void setHmnotnost(BigDecimal hmnotnost) {
+    public void setHmnotnost(Double hmnotnost) {
         this.hmnotnost = hmnotnost;
     }
 }
